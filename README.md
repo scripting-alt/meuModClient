@@ -1,24 +1,54 @@
-# Mod Scaffold - Minecraft 1.12.2
+# Meu Mod Client - Minecraft 1.12.2
 
-Um mod cliente para Minecraft 1.12.2 com menu customizável e sistema de scaffold automático.
+Um mod cliente simples e configurável com menu e sistema de scaffold automático.
 
-## 🎮 Funcionalidades
+## Funcionalidades
 
-- **Menu Customizável**: Abra com `SHIFT + Clique Direito`
-- **Scaffold Automático**: Coloca blocos sob seus pés
-- **Opções Configuráveis**:
-  - Ativar/Desativar scaffold
-  - Ajustar alcance (1-20 blocos)
-  - Ativar/Desativar partículas
-  - Ativar/Desativar som
+✅ **Menu Configurável** - Abra com `SHIFT + Clique Direito`
+- Ativar/Desativar Scaffold
+- Configurar alcance do Scaffold (1-20 blocos)
+- Ativar/Desativar Partículas
+- Ativar/Desativar Som
 
-## 📥 Instalação
+✅ **Sistema de Scaffold** - Coloca blocos automaticamente sob os pés quando está andando
 
-1. Baixe o arquivo `ModScaffold-1.0.0.jar`
-2. Coloque em `.minecraft/mods/`
-3. Execute o Minecraft com Forge 1.12.2
+✅ **Configurações Salvas** - Arquivo `meumodclient.cfg`
 
-## ⚙️ Compilação
+## Instalação
+
+1. Baixe o arquivo `.jar` compilado
+2. Coloque em `%appdata%/.minecraft/mods/` (Windows) ou `~/.minecraft/mods/` (Linux/Mac)
+3. Abra o Minecraft com Forge 1.12.2
+4. Jogue!
+
+## Como Compilar
 
 ```bash
 ./gradlew build
+```
+
+O arquivo `.jar` estará em `build/libs/meuModClient-1.0.0.jar`
+
+## Controles
+
+- **SHIFT + Clique Direito** = Abrir Menu
+- **Menu** = Configurar opções
+
+## Configuração
+
+Edite `config/meumodclient.cfg` para customizar:
+
+```
+scaffoldEnabled=true
+scaffoldRange=5
+particlesEnabled=true
+soundEnabled=true
+```
+
+## Desenvolvido por
+
+scripting-alt
+
+---
+
+**Minecraft 1.12.2 | Forge 14.23.5.2847**

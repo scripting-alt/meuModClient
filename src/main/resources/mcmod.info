@@ -1,7 +1,7 @@
 [
     {
-        "modid": "modscaffold",
-        "name": "Mod Scaffold",
+        "modid": "meumodclient",
+        "name": "Meu Mod Client",
         "description": "Um mod cliente com menu customizável e sistema de scaffold",
         "version": "1.0.0",
         "mcversion": "1.12.2",

@@ -11,8 +11,8 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "1.0.0"
-group = "com.scripting.modscaffold"
-archivesBaseName = "ModScaffold"
+group = "com.scripting.modclient"
+archivesBaseName = "meuModClient"
 
 sourceCompatibility = targetCompatibility = 1.8
 
