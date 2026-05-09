@@ -2,6 +2,7 @@ package com.scripting.modclient;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.eventbus.SubscribeEvent;
 import org.apache.logging.log4j.Logger;
 
 @Mod(

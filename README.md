@@ -1,27 +1,29 @@
 # Meu Mod Client - Minecraft 1.12.2
 
-Um mod cliente simples e configurável com menu e sistema de scaffold automático.
+Um mod cliente avançado com menu customizável e múltiplas funções.
 
-## Funcionalidades
+## 🎮 Funcionalidades
 
-✅ **Menu Configurável** - Abra com `SHIFT + Clique Direito`
-- Ativar/Desativar Scaffold
-- Configurar alcance do Scaffold (1-20 blocos)
-- Ativar/Desativar Partículas
-- Ativar/Desativar Som
+✅ **Menu Avançado** - Abra com `RIGHT-SHIFT`
+- Scaffold ON/OFF - Coloca blocos automaticamente
+- ESP ON/OFF - Mostra inimigos e players em vermelho
+- NoFall ON/OFF - Remove damage de queda
+- Speed ON/OFF - Aumenta velocidade de movimento
+- Nightvision ON/OFF - Visão noturna
+- Fly ON/OFF - Voo (apenas cliente)
+- Atirador Automático ON/OFF - Tira fotos automaticamente
+- AntiKnockback ON/OFF - Reduz knockback recebido
+- Configurar alcance e velocidade
+- Salvar todas as configurações
 
-✅ **Sistema de Scaffold** - Coloca blocos automaticamente sob os pés quando está andando
+## 📥 Instalação
 
-✅ **Configurações Salvas** - Arquivo `meumodclient.cfg`
-
-## Instalação
-
-1. Baixe o arquivo `.jar` compilado
+1. Baixe o arquivo `meuModClient-1.0.0.jar`
 2. Coloque em `%appdata%/.minecraft/mods/` (Windows) ou `~/.minecraft/mods/` (Linux/Mac)
 3. Abra o Minecraft com Forge 1.12.2
 4. Jogue!
 
-## Como Compilar
+## 🔧 Como Compilar
 
 ```bash
 ./gradlew build
@@ -29,21 +31,33 @@ Um mod cliente simples e configurável com menu e sistema de scaffold automátic
 
 O arquivo `.jar` estará em `build/libs/meuModClient-1.0.0.jar`
 
-## Controles
+## 🎮 Controles
 
-- **SHIFT + Clique Direito** = Abrir Menu
-- **Menu** = Configurar opções
+- **RIGHT-SHIFT** = Abrir Menu Principal
+- **ESC** = Fechar Menu
 
-## Configuração
+## ⚙️ Configuração
 
 Edite `config/meumodclient.cfg` para customizar:
 
 ```
 scaffoldEnabled=true
 scaffoldRange=5
-particlesEnabled=true
-soundEnabled=true
+espEnabled=false
+nofallEnabled=false
+speedEnabled=false
+nightvisionEnabled=false
+flyEnabled=false
+shooterEnabled=false
+antiKnockbackEnabled=false
 ```
+
+## ⚠️ Aviso
+
+- Este mod é apenas para CLIENTE
+- Use por sua conta e risco em servidores
+- Alguns recursos podem ser detectados em anti-cheats
+- Desenvolvido para fins educacionais
 
 ## Desenvolvido por
 

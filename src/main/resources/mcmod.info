@@ -2,7 +2,7 @@
     {
         "modid": "meumodclient",
         "name": "Meu Mod Client",
-        "description": "Um mod cliente com menu customizável e sistema de scaffold",
+        "description": "Um mod cliente avançado com múltiplas funções",
         "version": "1.0.0",
         "mcversion": "1.12.2",
         "url": "",
